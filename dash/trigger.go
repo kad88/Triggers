@@ -3,8 +3,8 @@ package dash
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/action"
 	"github.com/TIBCOSoftware/flogo-lib/core/trigger"
-        "encoding/json"
-	"net/http"
+       // "encoding/json"
+	//"net/http"
 	//"bytes"
 	"github.com/google/gopacket"
 	//"github.com/google/gopacket/layers"
@@ -12,8 +12,8 @@ import (
 	"log"
 	//"net"
 	"fmt"
-	"os"
-	"io/ioutil"
+	//"os"
+	//"io/ioutil"
 )
 
 type Button struct {
@@ -89,13 +89,13 @@ func (t *MyTrigger) Metadata() *trigger.Metadata {
 // Start implements trigger.Trigger.Start
 func (t *MyTrigger) Start() error {
 	// start the trigger
-	return t.server.Start()
+	//return t.server.Start()
 	return nil
 }
 
 // Stop implements trigger.Trigger.Start
 func (t *MyTrigger) Stop() error {
 	// stop the trigger
-	return t.server.Stop()
+	//return t.server.Stop()
 	return nil
 }
