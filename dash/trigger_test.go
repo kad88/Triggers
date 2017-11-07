@@ -1,4 +1,4 @@
-package dashTrigger
+package dash
 
 import (
 	"context"

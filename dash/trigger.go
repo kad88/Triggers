@@ -1,4 +1,4 @@
-package dashTrigger
+package dash
 
 import (
 	"github.com/TIBCOSoftware/flogo-lib/core/action"
